@@ -1,0 +1,375 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        $('.carousel').carousel(
+        {
+        duration: 300,
+        shift: 5,
+        }
+        );
+      });
+
+      autoplay()   
+      function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 4500);
+      }
+          $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+
+  </script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Nunito:400,600,700" rel="stylesheet">
+  <title>U-Report</title>
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+  <style>
+    /* header{
+      background: url(img/man.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    } */
+    @media screen and (max-width: 670px){
+      #download img {
+        margin-top: 10px;
+      }
+    } 
+
+    @media screen and (max-width: 992px){
+      #pagepanel3 .card {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    } 
+    .section{
+      padding-top: 4vw;
+    }
+  </style>
+</head>
+<body>
+
+  	<!--					Preloader	                 -->				
+	<div class="preloader-background">
+		<div class="loader">
+          <img src="images/logo.png" alt="logo" width="200px" height="68px" >
+        </div>
+  </div>
+  
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo" id="mob1"><img class="responsive-image" src="images/logo.png" alt="logo" width="160px" height="54px"></a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel1">Home</a></li>
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel2">Works</a></li>
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel3">Team</a></li>
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel4">Contact</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel1">Home</a></li>
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel2">Works</a></li>
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel3">Team</a></li>
+          <li><a style="color: #34344b; font-weight: bold;" href="#pagepanel4">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!--
+  <div class="parallax-container" data-kc-fullheight="middle-content">
+    <div class="parallax"><img src="https://images7.alphacoders.com/920/thumb-350-920825.jpg">
+    </div>
+  <section class="container section" id="pagepanel1">
+    <div class="row">
+      <div class="col s12 l6">
+        <h3 class="left-align" style="font-weight: bold;">It’s All About Promoting Your Business</h3>
+        <p class="left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.			</p>
+        <div id="download">
+          <img class="" src="https://themes.3rdwavemedia.com/demo/nova-free/assets/images/appstore-android.svg" alt="android" width="169" height="50">
+          <img class="" src="https://themes.3rdwavemedia.com/demo/nova-free/assets/images/appstore-apple.svg" alt="apple" width="167" height="50">
+        </div>
+      </div>
+      <div class="col s12 l5">
+        <img class="responsive-img materialboxed" src="images/Screen.png" alt="Screen">
+      </div>
+    </div>
+  </section>
+  </div> -->
+    <section>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/noah-morgan-kxkXVlNL7H0-unsplash.jpg">
+        </div>
+      <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h3 class="left-align" style="font-weight: bold;">It’s All About Promoting Your Business</h3>
+              <p class="left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.			</p>
+              <div id="download">
+                <img class="" src="https://themes.3rdwavemedia.com/demo/nova-free/assets/images/appstore-android.svg" alt="android" width="169" height="50">
+                <img class="" src="https://themes.3rdwavemedia.com/demo/nova-free/assets/images/appstore-apple.svg" alt="apple" width="167" height="50">
+              </div>
+            </div>
+            <div class="col s12 l5">
+              <img class="responsive-img materialboxed" src="images/Screen.png" alt="Screen">
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <!-- Fonctionnements -->
+    <section class="grey lighten-4" style="margin: 50px">
+      <div class="container" style="margin-bottom: 50px">
+        <h4 class="center" style="font-weight: bold;">FONCTIONNEMENT</h4>
+        <p class="center">Application de sensibilisation contre le Covid 19 tout en apportant les bonnes mesures à adopter pour limiter la propagation du virus.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l3">
+            <div class="card-panel transparent">
+              <div class="container" style="display: flex; justify-content: center; align-items: center;"><img src="images/employee.svg" alt="employee" width="80px" height="80px"></div>
+              <h5 class="center-align" style="font-weight: 500">LOGIN FIRST</h5>
+              <p class="center-align">Lorem ipsum dolor sit ameteped consecteadop adipisicing elitab.</p>
+            </div>
+          </div>
+          <div class="col s12 l3">
+            <div class="card-panel transparent">
+              <div class="container" style="display: flex; justify-content: center; align-items: center;"><img src="images/employee.svg" alt="employee" width="80px" height="80px"></div>
+              <h5 class="center-align" style="font-weight: 500">LOGIN FIRST</h5>
+              <p class="center-align">Lorem ipsum dolor sit ameteped consecteadop adipisicing elitab.</p>
+            </div>
+          </div>
+          <div class="col s12 l3">
+            <div class="card-panel transparent">
+              <div class="container" style="display: flex; justify-content: center; align-items: center;"><img src="images/employee.svg" alt="employee" width="80px" height="80px"></div>
+              <h5 class="center-align" style="font-weight: 500">LOGIN FIRST</h5>
+              <p class="center-align">Lorem ipsum dolor sit ameteped consecteadop adipisicing elitab.</p>
+            </div>
+          </div>
+          <div class="col s12 l3">
+            <div class="card-panel transparent">
+              <div class="container" style="display: flex; justify-content: center; align-items: center;"><img src="images/employee.svg" alt="employee" width="80px" height="80px"></div>
+              <h5 class="center-align" style="font-weight: 500">LOGIN FIRST</h5>
+              <p class="center-align">Lorem ipsum dolor sit ameteped consecteadop adipisicing elitab.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  <!-- Special features -->
+  <section class="">
+      <div class="container" style="margin-bottom: 50px">
+        <h4 class="center" style="font-weight: bold;">NOUVEAUTES</h4>
+        <p class="center">Application de sensibilisation contre le Covid 19 tout en apportant les bonnes mesures à adopter pour limiter la propagation du virus.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l3">
+              <div>
+                <div class="right-align"><a class="waves-effect btn-floating btn-large social adn"><i class="fa fa-adn"></i></a></div>
+                <h6 class="right-align">Statistiques</h6>
+                <p  class="right-align" style="font-size: 0.8em">Les différents statistiques de cas de Coronavirus dans le monde entier.</p>
+              </div>
+              <div>
+                <div class="right-align"><a class="waves-effect btn-floating btn-large social adn"><i class="fa fa-adn"></i></a></div>
+                <h6 class="right-align">Statistiques</h6>
+                <p  class="right-align" style="font-size: 0.8em">Les différents statistiques de cas de Coronavirus dans le monde entier.</p>
+              </div>
+              <div>
+                <div class="right-align"><a class="waves-effect btn-floating btn-large social adn"><i class="fa fa-adn"></i></a></div>
+                <h6 class="right-align">Statistiques</h6>
+                <p  class="right-align" style="font-size: 0.8em">Les différents statistiques de cas de Coronavirus dans le monde entier.</p>
+              </div>
+          </div>
+          <div class="col s12 l6" style="display: flex; justify-content: center; align-items: center;">
+            <img class="responsive-img materialboxed" src="images/Screen.png" alt="Screen">
+          </div>
+          <div class="col s12 l3">
+            <div>
+              <div class="left-align"><a class="waves-effect btn-floating btn-large social adn"><i class="fa fa-adn"></i></a></div>
+              <h6 class="left-align">Statistiques</h6>
+              <p  class="left-align" style="font-size: 0.8em">Les différents statistiques de cas de Coronavirus dans le monde entier.</p>
+            </div>
+            <div>
+              <div class="left-align"><a class="waves-effect btn-floating btn-large social adn"><i class="fa fa-adn"></i></a></div>
+              <h6 class="left-align">Statistiques</h6>
+              <p  class=leftt-align" style="font-size: 0.8em">Les différents statistiques de cas de Coronavirus dans le monde entier.</p>
+            </div>
+            <div>
+              <div class="left-align"><a class="waves-effect btn-floating btn-large social adn"><i class="fa fa-adn"></i></a></div>
+              <h6 class="left-align">Statistiques</h6>
+              <p  class="left-align" style="font-size: 0.8em">Les différents statistiques de cas de Coronavirus dans le monde entier.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--  Video Demo-->
+  <section class="yellow accent-4 valign-wrapper" style="height: 400px;">
+    <div class="container">
+      <div class="container valign-wrapper">
+          <a class="btn-floating btn-large pulse amber lighten-5 modal-trigger" href="#modal" style="margin: 10px auto;"><i class="material-icons" style="font-size: 40px; color: yellow;">play_arrow</i></a>
+      </div>
+      <h4 class="center" style="font-weight: bold;">REGARDEZ LA DEMO</h4>
+
+          <div id="modal" class="modal green-text white">
+            <div class="modal-content">
+              <p>
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/q8wAMtg9iqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+    </div>
+  </section>
+  
+  <!--  App Screenshots-->
+  <section class="grey lighten-4">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="carousel" style="margin-bottom: 100px;">
+            <div class="container" style="border-bottom: solid grey 2px;">
+              <h4 class="center" style="font-weight: bold;">SCREENSHOTS</h4>
+              <p class="center">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet, consectetur.</p>
+            </div>
+              <a class="carousel-item" href="#one!"><img src="images/Screen4.png"></a>
+              <a class="carousel-item" href="#two!"><img src="images/Screen4.png"></a>
+              <a class="carousel-item" href="#three!"><img src="images/Screen4.png"></a>
+              <a class="carousel-item" href="#four!"><img src="images/Screen4.png"></a>
+              <a class="carousel-item" href="#five!"><img src="images/Screen4.png"></a>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our Team-->
+  <section style="display: flex; justify-content: space-between; padding-bottom: 50px; padding-top: 50px; background-color: white;" id="pagepanel3">
+    <div class="row">
+      <h4 class="center" style="font-weight: bold;">NOTRE TEAM</h4>
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://spaceraceit.com/wp/appro/wp-content/uploads/2018/04/team31-11.jpg" height="250px" width="50px">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4" style="font-weight: bold; font-size: 1em;">BRAD KPOHAHOUN<i class="material-icons right">more_vert</i></span>
+            <h6>Etudiant</h6>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4" style="font-size: 1.2em; font-weight: bold;">Plus d'informations<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <a class="waves-effect waves-light social-icon btn linkedin light-blue darken-4">
+            <i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://spaceraceit.com/wp/appro/wp-content/uploads/2018/04/team31-11.jpg" height="250px" width="50px">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4" style="font-weight: bold; font-size: 1em;">SEAN DAHISSIHO<i class="material-icons right">more_vert</i></span>
+            <h6>Etudiant</h6>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4" style="font-size: 1.2em; font-weight: bold;">Plus d'informations<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <a class="waves-effect waves-light social-icon btn linkedin light-blue darken-4">
+            <i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="https://spaceraceit.com/wp/appro/wp-content/uploads/2018/04/team31-11.jpg" height="250px" width="50px">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4" style="font-weight: bold; font-size: 1em;">EDWIN KOUASSI<i class="material-icons right">more_vert</i></span>
+            <h6>Etudiant</h6>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4" style="font-size: 1.2em; font-weight: bold;">Plus d'informations<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <a class="waves-effect waves-light social-icon btn linkedin light-blue darken-4">
+            <i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/noah-morgan-kxkXVlNL7H0-unsplash.jpg">
+      </div></div>
+  <!-- footer -->
+  <footer class="page-footer grey lighten-2" id="pagepanel4">
+    <div class="container">
+        <div>
+          <h5 class="black-text center-align">Téléchargez notre application</h5>
+          <p class="container grey-text text-darken-1 center-align">Download our apps now. lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+      </div>
+      <div class="container" id="down">
+        <div class="row" style="margin-top: 10px;">
+          <img class="col s6" src="https://themes.3rdwavemedia.com/demo/nova-free/assets/images/appstore-android.svg" alt="android" width="135px" height="40px">
+          <img class="col s6" src="https://themes.3rdwavemedia.com/demo/nova-free/assets/images/appstore-apple.svg" alt="apple" width="135px" height="40px">
+        </div>
+      </div>
+    </div>
+		<div class="footer-copyright">
+			<div class="container center-align grey-text text-darken-1">&copy; 2020 U-Report, Tout les droits sont réservés.</div>
+		</div>
+	</footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.modal').modal();
+
+    });
+  </script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function(){
+          $('.preloader-background').delay(2000).fadeOut('slow');
+          
+          $('.preloader-wrapper')
+            .delay(1700)
+            .fadeOut();
+      });
+  </script>
+
+</body>
+</html>
