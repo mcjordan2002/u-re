@@ -1,0 +1,84 @@
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffde7;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+}
+
+ .parallax-container {
+  height: 750px !important;
+}
+
+.loader {
+	-webkit-animation: loader 0.5s ease-in-out infinite both;
+	        animation: loader 0.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes loader {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes loader {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: .025em;
+    line-height: 2.1428;
+    color: #212121;
+    background: white;
+}
+
+#pagepanel2 #pagepanel3 {
+  width: 150% !important;
+}
+
+.card {
+  width: 260.5px;
+  height: 355.5px;
+}
+
+
+#down {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 90%;
+}
+
+.carousel-item {
+  width: 500px !important;
+  height: 500px !important;
+}
+
+.carousel {
+  height: 900px !important;
+}
